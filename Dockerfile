@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:8
 
 # Install Apache (httpd)
 RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-* && \
